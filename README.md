@@ -4,7 +4,7 @@ Welcome to our **Travel & Tourism Website**! This project is developed as part o
 
 ## 🚀 Live Demo
 
-Check out our live website on Netlify: [Travel & Tourism Website]([https://your-netlify-site.netlify.app](https://soft-duckanoo-c4da82.netlify.app/))
+Check out our live website on Netlify: [Travel & Tourism Website](https://soft-duckanoo-c4da82.netlify.app/)
 
 ## 📋 Table of Contents
 
