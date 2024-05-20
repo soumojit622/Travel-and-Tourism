@@ -1,26 +1,4 @@
-/*-----------------------------------*\
- * #style.css
-\*-----------------------------------*/
-
-/**
- * copyright 2022 codewithsadee
- */
-
-
-
-
-
-/*-----------------------------------*\
- * #CUSTOM PROPERTY
-\*-----------------------------------*/
-
 :root {
-
-  /**
-   * colors
-   */
-
-
   --united-nations-blue: hsl(214, 56%, 58%);
   --bright-navy-blue: #3b79c9;
   --spanish-gray: hsl(0, 0%, 60%);
@@ -36,9 +14,7 @@
   --onyx: hsl(0, 0%, 25%);
   --jet: hsl(0, 0%, 20%);
 
-  /**
-   * typography
-   */
+
 
   --ff-poppins: "Poppins", sans-serif;
   --ff-montserrat: "Montserrat", sans-serif;
@@ -80,11 +56,6 @@
 
 
 
-
-
-/*-----------------------------------*\
- * #RESET
-\*-----------------------------------*/
 
 *,
 *::before,
@@ -141,12 +112,6 @@ body {
 }
 
 
-
-
-
-/*-----------------------------------*\
- * #REUSED STYLE
-\*-----------------------------------*/
 
 .container {
   padding-inline: 15px;
@@ -230,12 +195,6 @@ body {
 }
 
 
-
-
-
-/*-----------------------------------*\
- * #HEADER
-\*-----------------------------------*/
 
 .header {
   position: absolute;
@@ -425,12 +384,6 @@ body {
 
 
 
-
-
-/*-----------------------------------*\
- * #HERO
-\*-----------------------------------*/
-
 .hero {
 
   background-image: url("../images/hero-banner.jpg");
@@ -444,7 +397,7 @@ body {
   min-height: 600px;
   text-align: center;
   padding-top: 125px;
-} 
+}
 
 .hero-title {
   margin-bottom: 20px;
@@ -467,13 +420,8 @@ body {
 
 
 
-
-/*-----------------------------------*\
- * #TOUR SEARCH
-\*-----------------------------------*/
-
 .tour-search {
-  background: linear-gradient(45deg,#78a1d7, #2f74ce);
+  background: linear-gradient(45deg, #78a1d7, #2f74ce);
   padding-block: var(--section-padding);
 }
 
@@ -513,11 +461,6 @@ body {
 
 
 
-
-
-/*-----------------------------------*\
- * #POPULAR
-\*-----------------------------------*/
 
 .popular {
   padding-block: var(--section-padding);
@@ -591,12 +534,6 @@ body {
 }
 
 
-
-
-
-/*-----------------------------------*\
- * #PACKAGE
-\*-----------------------------------*/
 
 .package {
   padding-block: var(--section-padding);
@@ -681,7 +618,7 @@ body {
 }
 
 .package-card .card-price {
-  background: linear-gradient(45deg, #2f74ce,#78a1d7);
+  background: linear-gradient(45deg, #2f74ce, #78a1d7);
   color: var(--white);
   padding: 25px 20px;
   text-align: center;
@@ -730,12 +667,6 @@ body {
 
 
 
-
-
-/*-----------------------------------*\
- * #GALLERY
-\*-----------------------------------*/
-
 .gallery {
   padding-block: var(--section-padding);
 }
@@ -765,14 +696,8 @@ body {
 
 
 
-
-
-/*-----------------------------------*\
- * #CTA
-\*-----------------------------------*/
-
 .cta {
-  background: linear-gradient(45deg,#78a1d7, #2f74ce,#78a1d7);
+  background: linear-gradient(45deg, #78a1d7, #2f74ce, #78a1d7);
   padding-block: var(--section-padding);
 }
 
@@ -785,12 +710,6 @@ body {
 }
 
 
-
-
-
-/*-----------------------------------*\
- * #FOOTER
-\*-----------------------------------*/
 
 .footer-top {
   background: var(--gunmetal);
@@ -938,11 +857,6 @@ address {
 
 
 
-
-/*-----------------------------------*\
- * #GO TO TOP
-\*-----------------------------------*/
-
 .go-top {
   position: fixed;
   bottom: 15px;
@@ -973,12 +887,6 @@ address {
 }
 
 
-
-
-
-/*-----------------------------------*\
- * #MEDIA QUERIES
-\*-----------------------------------*/
 
 /**
  * responsive for larger than 580px screen
@@ -1132,21 +1040,13 @@ address {
 
 
 
-/**
- * responsive for larger than 768px screen
- */
 
 @media (min-width: 768px) {
 
-  /**
-   * CUSTOM PROPERTY
-   */
+
 
   :root {
 
-    /**
-     * typography
-     */
 
     --fs-5: 15px;
 
@@ -1312,26 +1212,14 @@ address {
 
 
 
-
-/**
- * responsive for larger than 992px screen
- */
-
 @media (min-width: 992px) {
 
-  /**
-   * REUSED STYLE
-   */
 
   .container {
     max-width: 1050px;
   }
 
 
-
-  /**
-   * HEADER
-   */
 
   .header.active .header-top {
     position: unset;
@@ -1404,9 +1292,7 @@ address {
 
 
 
-  /**
-   * HERO
-   */
+
 
   .hero .container {
     max-width: 740px;
@@ -1414,9 +1300,6 @@ address {
 
 
 
-  /**
-   * TOUR SEARCH
-   */
 
   .tour-search-form {
     grid-template-columns: repeat(5, 1fr);
@@ -1430,9 +1313,6 @@ address {
 
 
 
-  /**
-   * POPULAR
-   */
 
   .popular-list {
     grid-template-columns: repeat(3, 1fr);
@@ -1440,9 +1320,7 @@ address {
 
 
 
-  /**
-   * PACKAGE
-   */
+
 
   .meta-box {
     --fs-8: 13px;
@@ -1454,19 +1332,12 @@ address {
 
 
 
-  /**
-   * CTA 
-   */
 
   .cta .section-title {
     max-width: 25ch;
   }
 
 
-
-  /**
-   * FOOTER
-   */
 
   .footer-top .container {
     grid-template-columns: repeat(3, 1fr);
@@ -1491,31 +1362,18 @@ address {
 
 
 
-/**
- * responsive for larger than 1200px screen
- */
 
 @media (min-width: 1200px) {
 
-  /**
-   * CUSTOM PROPERTY
-   */
+
 
   :root {
 
-    /**
-     * spacing
-     */
 
     --section-padding: 100px;
 
   }
 
-
-
-  /**
-   * REUSED STYLE
-   */
 
   .container {
     max-width: 1180px;
@@ -1527,26 +1385,21 @@ address {
  * #CUSTOM SCROLLBAR
 \*-----------------------------------*/
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   width: 15px;
 }
 
-::-webkit-scrollbar-track{
+::-webkit-scrollbar-track {
   background: #d1e5ff;
 }
 
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
   /* background: linear-gradient(#642bff, #3b79c9); */
-  background-image: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%);
-  border-radius: 7px;
+  background-image: linear-gradient(to right, #3498DB 0%, #3498DB 31%, #3498DB 100%);
+  border-radius: 5px;
 }
 
 
-/*-----------------------------------*\
- * #SLIDER
-\*-----------------------------------*/
-
-/* $animationSpeed: 40s; */
 
 .slider {
   height: 100px;
@@ -1571,6 +1424,7 @@ address {
   0% {
     transform: translateX(0);
   }
+
   100% {
     transform: translateX(calc(-250px * 7));
   }
