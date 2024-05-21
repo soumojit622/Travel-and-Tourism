@@ -10,7 +10,6 @@ Check out our live website on Netlify: [Travel & Tourism Website](https://soft-d
 
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
 
@@ -38,28 +37,6 @@ Check out our live website on Netlify: [Travel & Tourism Website](https://soft-d
 - **CSS3** - For styling and layout.
 - **JavaScript** - For interactive features and functionality.
 - **Netlify** - For hosting the live website.
-
-## 🛠 Installation
-
-To run this project locally, follow these steps:
-
-1. **Clone the repository:**
-
-    ```sh
-    git clone https://github.com/your-username/travel-tourism-website.git
-    ```
-
-2. **Navigate to the project directory:**
-
-    ```sh
-    cd travel-tourism-website
-    ```
-
-3. **Open the `index.html` file in your browser:**
-
-    ```sh
-    open index.html
-    ```
 
 ## 💻 Usage
 
